@@ -1,0 +1,91 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: fixed url("../img/back.png") no-repeat;
+	background-size: cover;
+
+}
+
+#wrapper {
+	width: 1000px;
+	height: 900px;
+	margin: auto;
+	background: rgb(248,248,251);
+	border-radius: 10px;
+	overflow: hidden;
+	margin-top: 2%;
+}
+
+header {
+	height: 65px;
+	border-bottom: 1px solid #bbb;
+}
+
+#points {
+	height: 20px;
+	width: 60px;
+	background: url("../img/point.png");
+	background-size: 65px;
+	float: left;
+	margin-top: 25px;
+	margin-left: 20px;
+}
+
+aside {
+	float: left;
+	width: 175px;
+	height: inherit;
+	background: #636460;
+	color: #e9e8eb;
+	font-family: "Calibri Light";
+}
+
+aside > ul > li {
+	padding: 5px;
+	background: #555450;
+}
+
+aside > ul > ul > li {
+	padding: 5px;
+}
+
+
+#person {
+	margin-left: 306px;
+	width: 215px;
+	border-right: 1px solid #bbb;
+	height: inherit;
+}
+
+#person > img {
+	width: 50px;
+	margin: 8px;
+	border-radius: 50%;
+	float: left;
+}
+
+#person > div {
+	background: url("../img/onw.png") no-repeat;
+	background-size: 25px;
+	width: 25px;
+	height: 25px;
+	margin: 22px 120px 0px 0px;
+	float: right;
+}
+
+#listbox {
+	box-sizing: border-box;
+	height: inherit;
+	width: 347px;
+	padding: 5px;
+	border-right: 1px solid #bbb;
+	float: left;
+	text-align: justify;
+}
+
+#content {
+	float: right;
+}
